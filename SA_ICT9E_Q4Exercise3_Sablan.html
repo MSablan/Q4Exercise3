@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head align="center">
+	<title>Q4 | Exercise 3</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<style type="text/css">
+		body{
+			background-color: lavender;
+		}
+	</style>
+</head>
+<div class="container" style="font-size:2em;">
+<body align="center">
+	<h1 style="font-family:Lucida Console;color: black;"><span style="background-color: lightskyblue;">JavaScript Arithmetic Operators</span></h1>
+	<p><mark>A = 10 B = 5</mark></p>
+	<o1 type="1.">
+
+	<li>B + B = <strong id="p1"></strong></li>
+	<li>A - B = <strong id="p2"></strong></li>
+	<li>A * A = <strong id="p3"></strong></li>
+	<li>B / A = <strong id="p4"></strong></li>
+	<li>B % 2 = <strong id="p5"></strong></li>
+
+	</o1>
+
+	<script>
+		let A=10, B=5;
+
+		let sum = B + B;
+		let diff = A - B;
+
+		alert("The sum of three numbers: " + sum + "\n" + "The difference of two numbers: " + diff)
+
+		//variable declaration;assignment of values
+		document.getElementById("p1").innerHTML = B + B
+		document.getElementById("p2").innerHTML = A - B
+		document.getElementById("p3").innerHTML = A * A
+		document.getElementById("p4").innerHTML = B / A
+		document.getElementById("p5").innerHTML = B % 2
+	</script>
+</div>
+</body>
+</html>
